@@ -88,9 +88,7 @@ body{
 }
 
 /* -----product-item------ */
-.popular-collection{
-    margin-left:80px ;
-}
+
 .popular-collection-product{
     display: grid;
     grid-template-columns: repeat(3,1fr);
