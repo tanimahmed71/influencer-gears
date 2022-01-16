@@ -1,3 +1,15 @@
+/* -----media----- */
+/* --mobil-phone-- */ 
+
+@media (max-width:600) {
+    .dinfluencer-part{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* ---for-tablet--- */
+
+  
   /* --------body------ */
 body{
     font-family: 'Poppins', sans-serif;
