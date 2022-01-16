@@ -181,7 +181,6 @@ body{
     background-color: rgb(4, 4, 45);
     height: 200px;
     padding: 30px;
-
 }
 .footer-header{
     color: #FFFFFF;
@@ -189,4 +188,7 @@ body{
 }
 .footer-header p{
     color: #D9DBE1;
+}
+.icon{
+   text-align: center;    
 }
