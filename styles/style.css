@@ -3,7 +3,9 @@
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
-
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 /* ------------------header-part--------------- */
 .header-h1{
@@ -35,10 +37,8 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    padding: 40px;
-    width: 90%;
     text-align: end;
-    margin-right: 10px;    
+    margin-bottom: 100px;
 }
 
 /*----------------- main---------------- */
@@ -48,22 +48,20 @@ body{
 /*-------------------- influencer-part------------------- */
 
 .camera-info{
-    margin-top: 0%;
     font-size: 16px;
 }
 .influencer-part{
-
     background-color: white; 
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
-
 }
 /* -----camera---- */
 .camera-w{
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
 }
 /* ---------------------popular colllection part---------------- */
+
 .popular-header{
     text-align: center;
     color: #3A3A3A;
@@ -118,8 +116,7 @@ body{
 .discount-gadget-detail{
     border-radius: 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width:calc(100%-420px);
-    height: 420px;
+        height: 420px;
     padding: 20px;
   
 } 
@@ -145,24 +142,81 @@ body{
 }
 
 /* /* -----------footer-part-------------  */
- footer{
-     width: 100%;
- }
-
 .footer{
     background-color: rgb(4, 4, 45);
     height: 200px;
-    padding: 30px;
+    width: 100%;
+    margin-top: 80px;
+    position: absolute;
 }
 .footer-header{
     color: #FFFFFF;
     text-align: center;
+
 }
 .footer-header p{
     color: #D9DBE1;
 }
 .icon{
-   text-align: center;    
+   text-align: center;  
+  
 }
 
 
+/* -----media----- */
+/* phone  */
+
+@media only screen and (max-width: 767px) {
+
+    .influencer-part{
+        background-color: white; 
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;        
+    }  
+    .details{
+        width: 90%;
+        order: 2;
+    }
+    .camera-w{
+        width: 90%;
+        order: 1;
+    }
+    .button-1{
+    
+    }
+    
+   .popular-collection-product{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    }
+    .influencer-product section{
+    margin: 20px 20px 20px 20px;
+    }
+    .discount-gadget{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    align-items: center;
+    }
+    .discount-gadget-img img{
+    width: 300px;
+    }
+    .discount-gadget-detail{
+   width: 270px;
+    margin-top: 20px;
+    height: 500px;
+    }
+
+    .see-more-button,a{
+    margin-right: 20px;
+    }
+    .footer{
+    width:100%;
+    }
+}
+
+/* tab  */
+
+@media only screen and ( mi max-width: 600px) {...}
