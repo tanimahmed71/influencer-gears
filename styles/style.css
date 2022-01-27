@@ -5,18 +5,6 @@ body{
     color: #3A3A3A;
 
 }
-
-.container{
-    width: 1050px;
-    font-size: 24px;
-    padding: 30PX ;
-    border-radius: 5px;
-    margin-top: 21px;
-}
-section{
-    margin: 30px;
-}
-
 /* ------------------header-part--------------- */
 .header-h1{
    
@@ -40,7 +28,6 @@ section{
     padding: 10px;
     border: 20px;
      border-radius: 5px;
-
 }
  /* see more button  */
  .see-more-button,a{
@@ -53,18 +40,13 @@ section{
     text-align: end;
     margin-right: 10px;    
 }
-/*-------------------- influencer-part------------------- */
- .popular-collection{
-    width: 100%;
-   height: 2200px;
- }
 
-
-.details{
-    width: 582px;
-    height: 480px; 
-   margin:0px;
+/*----------------- main---------------- */
+.influencer-product section{
+    margin: 20px 20px 20px 20px;
 }
+/*-------------------- influencer-part------------------- */
+
 .camera-info{
     margin-top: 0%;
     font-size: 16px;
@@ -72,44 +54,36 @@ section{
 .influencer-part{
 
     background-color: white; 
-    display: flex;
-    flex-direction:row;   
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
 }
 /* -----camera---- */
 .camera-w{
-    width: 100%;
+    background-repeat: no-repeat;
 }
-
 /* ---------------------popular colllection part---------------- */
 .popular-header{
     text-align: center;
     color: #3A3A3A;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 28px;
-    
-}
-
+    }
 /* -----product-item------ */
 
 .popular-collection-product{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    width: 1047px;
-    height: 1662px;
-
 }
 .products{
-    width: 329px;
-    height: 600px;
     border-radius: 5px;
-    padding: 7px;
-    width: 100%;    
+    padding: 8px;
 }
  /* -----product-item---- */
  .product-item{
-     width: 329px;
-     height: 700px;
+     width:320px;
      background-color: #FFFFFF;
      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
@@ -119,9 +93,7 @@ section{
 }
  .product-image{
      border-radius: 5px;
-     width: 300px;
      height: 256px;
-    padding-left: 8px;
 }
 .product-price{
     font-size: 24px;
@@ -142,27 +114,26 @@ section{
     color: #787885;
  }
 
-/* --------------common-gadget---------- */
+/* --------------discount-gadget---------- */
 .discount-gadget-detail{
     border-radius: 20px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width:calc(100%-400px);
-    height: 600px;
-    padding: 35px;
-    margin-left: 200px;
-    margin-bottom: 200px;
-
+    width:calc(100%-420px);
+    height: 420px;
+    padding: 20px;
+  
 } 
 /* .discount-gadget  */
 .discount-gadget{
-    display: flex;
-    /* width: 1110px;
-    height: 270px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
     align-items: center;
 }
 .discount-gadget-header{
     font-size: 38px;
     color: #0A0826;
+
 }
 .discount{
     color: coral;
@@ -171,9 +142,6 @@ section{
 .discount-gadget-img img{
     width: 420px;
     height: 300px;
-    border-radius: 5px;
-
-    
 }
 
 /* /* -----------footer-part-------------  */
