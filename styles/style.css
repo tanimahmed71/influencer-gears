@@ -163,10 +163,14 @@ body{
 }
 
 
-/* -----media----- */
-/* phone  */
+/* ------------------------media---------------- */
+/* -----------phone---------  */
 
 @media only screen and (max-width: 767px) {
+
+    .container{
+        margin-left: 23px;
+    }
 
     .influencer-part{
         background-color: white; 
@@ -214,9 +218,7 @@ body{
     }
     .footer{
     width:100%;
+    margin: 0px;
     }
 }
 
-/* tab  */
-
-@media only screen and ( mi max-width: 600px) {...}
