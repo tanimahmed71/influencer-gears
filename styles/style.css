@@ -1,35 +1,37 @@
-/* -----media----- */
-/* --mobil-phone-- */ 
-
-@media (max-width:600) {
-    .dinfluencer-part{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-/* ---for-tablet--- */
-
   
   /* --------body------ */
 body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
-    width: 100%;
-    margin: 0%;
+
 }
+
+.container{
+    width: 1050px;
+    font-size: 24px;
+    padding: 30PX ;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+section{
+    margin: 30px;
+}
+
 /* ------------------header-part--------------- */
 .header-h1{
-    margin: 60px;
+   
     font-size: 24px;
 }
 /* ------------all-button-------------- */
 .button-1{
     text-decoration: none;
+    border: none;
     color: white;
     font: size 10px;;
     background-color: #E02C6D;
     border-radius: 41px;
-    padding: 10px 24px;   
+    padding: 10px 24px; 
+    margin: 0%;
 }
 .button-2{
     text-decoration: none;
@@ -43,40 +45,39 @@ body{
  /* see more button  */
  .see-more-button,a{
     color: rgba(224, 44, 109, 0.87);
-    text-align: end;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
-    margin-right:197px;
-    padding-top: 40px;
-    
+    padding: 40px;
+    width: 90%;
+    text-align: end;
+    margin-right: 10px;    
 }
 /*-------------------- influencer-part------------------- */
+ .popular-collection{
+    width: 100%;
+   height: 2200px;
+ }
+
+
 .details{
     width: 582px;
-    height: 480px;
-    margin-right: 106px;
-    margin-top: 100px;
-    margin-left: 0%;
+    height: 480px; 
+   margin:0px;
+}
+.camera-info{
+    margin-top: 0%;
+    font-size: 16px;
 }
 .influencer-part{
-    display: flex;
+
     background-color: white; 
-    margin: 60px;
-    padding: 20px;
-    height: 600px;
+    display: flex;
+    flex-direction:row;   
 }
-.details-header{
-    font-size: 35px;
-    line-height: 70px;
-}
-
-  
-
 /* -----camera---- */
-.camera{
-    width: 440px;
-    height: 414px;
+.camera-w{
+    width: 100%;
 }
 
 /* ---------------------popular colllection part---------------- */
@@ -85,6 +86,7 @@ body{
     color: #3A3A3A;
     font-weight: 600;
     font-size: 28px;
+    
 }
 
 /* -----product-item------ */
@@ -97,22 +99,21 @@ body{
     height: 1662px;
 
 }
-.product-item .products{
-    padding: 17px 0px 17px 20px;
-}
-.product-item{
-    margin:30px;
-}
 .products{
     width: 329px;
-    height: 476px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    height: 600px;
     border-radius: 5px;
     padding: 7px;
-    width: 100%;
+    width: 100%;    
 }
  /* -----product-item---- */
+ .product-item{
+     width: 329px;
+     height: 700px;
+     background-color: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+
+ }
  .product-name{
     color: #18191F;
 }
@@ -120,6 +121,7 @@ body{
      border-radius: 5px;
      width: 300px;
      height: 256px;
+    padding-left: 8px;
 }
 .product-price{
     font-size: 24px;
@@ -141,14 +143,22 @@ body{
  }
 
 /* --------------common-gadget---------- */
+.discount-gadget-detail{
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width:calc(100%-400px);
+    height: 600px;
+    padding: 35px;
+    margin-left: 200px;
+    margin-bottom: 200px;
+
+} 
+/* .discount-gadget  */
 .discount-gadget{
     display: flex;
-    width: 1110px;
-    height: 270px;
-    margin-left: 80px;
+    /* width: 1110px;
+    height: 270px; */
     align-items: center;
-    margin-top: 250px;
-    margin-bottom: 250px;
 }
 .discount-gadget-header{
     font-size: 38px;
@@ -162,21 +172,15 @@ body{
     width: 420px;
     height: 300px;
     border-radius: 5px;
-    margin: 20px;
+
     
 }
-.common-gadget-detail{
-    border-radius: 20px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width:calc(100%-400px);
-    height: 420px;
-    padding: 35px;
-    margin-left: 200px;
-    margin-top: 220px;
-    margin-bottom: 200px;
 
-} 
 /* /* -----------footer-part-------------  */
+ footer{
+     width: 100%;
+ }
+
 .footer{
     background-color: rgb(4, 4, 45);
     height: 200px;
@@ -192,3 +196,5 @@ body{
 .icon{
    text-align: center;    
 }
+
+
